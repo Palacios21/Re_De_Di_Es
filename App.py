@@ -22,8 +22,8 @@ def predictDigit(image):
 
 # Streamlit 
 st.set_page_config(page_title='Reconocimiento de Dígitos Escritos a Mano', layout='wide')
-st.title('Reconocimiento de Dígitos escritos a mano')
-st.subheader("Dibuja el digito en el panel  y presiona  'Predecir'")
+st.title('Reconocimiento de Dígitos Escritos a Mano')
+st.subheader("Dibuja el numero en el panel  y presiona  'Predecir'")
 
 # Add canvas component
 # Specify canvas parameters in application
